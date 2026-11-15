@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.DS_Store
+
+# terraform
+infra/.terraform/
+infra/*.tfstate
+infra/terraform.tfstate.d/
+infra/*.tfstate.*
+infra/.terraform.lock.hcl.bak
