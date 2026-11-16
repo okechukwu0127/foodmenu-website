@@ -1,7 +1,7 @@
 {
-  "name": "Liberq",
-  "short_name": "Liberq",
-  "description": "Branded ordering apps for restaurants — 0% commission, with an AI waiter built in.",
+  "name": "LiberQ",
+  "short_name": "LiberQ",
+  "description": "Branded ordering apps for restaurants - 0% commission, with an AI waiter built in.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

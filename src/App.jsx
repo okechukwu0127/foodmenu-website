@@ -8,6 +8,7 @@ import { Strip, Problem, How, Brands, AiWaiter } from './components/Story.jsx';
 import Dashboard from './components/Dashboard.jsx';
 import { Six, Contact, Footer } from './components/Bottom.jsx';
 import Brochure from './components/Brochure.jsx';
+import LiveDemo from './components/LiveDemo.jsx';
 
 const modeFromHash = () => (window.location.hash === '#partners' ? 'partner' : 'restaurant');
 
@@ -45,6 +46,7 @@ export default function App() {
         <Problem mode={mode} />
         <How mode={mode} />
         <Brands mode={mode} />
+        <LiveDemo mode={mode} />
         <AiWaiter mode={mode} />
         <Dashboard mode={mode} />
         <Six mode={mode} />

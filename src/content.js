@@ -5,7 +5,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const site = {
-  name: "Liberq",
+  name: "LiberQ",
   email: "hello@liberq.co.uk",
   year: 2026,
 };
@@ -16,7 +16,36 @@ export const nav = {
     partner: { label: "I want to earn", hint: "Become a partner" },
   },
   beta: "Join the beta",
+  demo: "Live demo",
   cta: { restaurant: "Book a demo", partner: "Apply now" },
+};
+
+// The live demo web app. Change VITE_DEMO_URL in .env to point somewhere else.
+export const DEMO_URL = import.meta.env.VITE_DEMO_URL || "https://app.liberq.co.uk";
+// Adds tracking tags so you can see which button people clicked (nav, callout…).
+export const demoLink = (place) =>
+  `${DEMO_URL}/?utm_source=website&utm_medium=${place}&utm_campaign=live_demo`;
+
+// "Try the live demo" callout (after the "Let’s build your brand next" section).
+export const liveDemo = {
+  eyebrow: { restaurant: "Try it yourself", partner: "Your best sales tool" },
+  title: {
+    restaurant: ["Order from a LiberQ app", "right now."],
+    partner: ["Show them a real app,", "not a slide."],
+  },
+  body: {
+    restaurant:
+      "This is exactly what your customers will use. Browse the menu, ask the AI waiter for “something spicy under £15” and go all the way to checkout - in your browser, no download.",
+    partner:
+      "Open the demo on your phone in front of any restaurant owner. Let them browse, chat to the AI waiter and check out - it sells itself.",
+  },
+  points: ["Real menu, real AI waiter", "Works on any phone or laptop", "Nothing to install"],
+  cta: { restaurant: "Open the live demo", partner: "Open the live demo" },
+  note: "Demo restaurant - orders aren’t real and no card is charged.",
+  qrTitle: "Scan to try it on your phone",
+  qrSub: "Point your camera at the code",
+  qr: "/assets/brand/demo-qr.svg",
+  screen: "/assets/screens/ai-picks.webp",
 };
 
 // Background looks behind the hero (shown under a dark veil). First visit = aurora.
@@ -60,7 +89,7 @@ export const hero = {
     restaurant:
       "Your own branded ordering app on iPhone, Android and the web - 0% commission on every order, with an AI waiter that takes orders for you.",
     partner:
-      "Introduce local restaurants to Liberq. Earn a bonus when they go live, plus monthly commission while they grow. No fee to join.",
+      "Introduce local restaurants to LiberQ. Earn a bonus when they go live, plus monthly commission while they grow. No fee to join.",
   },
   cta: { restaurant: "Book a free demo", partner: "Become a partner" },
   secondary: { restaurant: "See how it works", partner: "How partners earn" },
@@ -145,7 +174,7 @@ export const problem = {
     total: ["Restaurant keeps", "£21.00"],
   },
   liberq: {
-    title: "Liberq app",
+    title: "LiberQ app",
     rows: [
       ["Order value", "£30.00"],
       ["Commission", "£0.00", "pos"],
@@ -153,7 +182,7 @@ export const problem = {
     ],
     total: ["Restaurant keeps", "£29.55"],
   },
-  note: "Liberq total is after typical card fees (1.5%). Illustrative.",
+  note: "LiberQ total is after typical card fees (1.5%). Illustrative.",
 };
 
 export const how = {
@@ -326,7 +355,7 @@ export const ai = {
     {
       beat: 0,
       who: "AI waiter",
-      text: "Hi! I’m Liberq AI 👋 What are you craving today?",
+      text: "Hi! I’m LiberQ AI 👋 What are you craving today?",
     },
     {
       beat: 1,
@@ -594,7 +623,7 @@ export const contact = {
       success: "Application received - your partner kit is on its way.",
     },
   },
-  consent: "I agree to Liberq storing these details to contact me.",
+  consent: "I agree to LiberQ storing these details to contact me.",
   errors: {
     required: "Please fill in every field.",
     email: "Please enter a valid email address.",
@@ -607,7 +636,7 @@ export const contact = {
     ios: "iPhone (TestFlight)",
     android: "Android",
     email: { ios: "Apple ID email", android: "Google account email" },
-    consent: "I agree to Liberq contacting me about beta testing.",
+    consent: "I agree to LiberQ contacting me about beta testing.",
     submit: "Request an invite",
     success: "You’re on the list. Watch your inbox for the invite.",
   },
@@ -689,11 +718,11 @@ export const t = (v, mode) =>
 export const brochure = {
   restaurant: {
     eyebrow: "Free brochure",
-    title: ["Everything about Liberq,", "in four pages."],
+    title: ["Everything about LiberQ,", "in four pages."],
     body: "Share it with your partner, your manager or your accountant. It explains the £9-per-order maths, the AI waiter, how we get you live and what each plan costs.",
-    points: ["Why restaurants switch — the £9 maths", "What you get, including the AI waiter", "How we get you live in 2–4 weeks", "Plans, prices and setup fees"],
+    points: ["Why restaurants switch - the £9 maths", "What you get, including the AI waiter", "How we get you live in 2–4 weeks", "Plans, prices and setup fees"],
     file: "/brochures/liberq-restaurant-brochure.pdf",
-    downloadName: "Liberq-Restaurant-Brochure.pdf",
+    downloadName: "LiberQ-Restaurant-Brochure.pdf",
     cover: "/brochures/restaurant-cover.webp",
     page: "/brochures/restaurant-page.webp",
     cta: "Download the restaurant brochure",
@@ -702,10 +731,10 @@ export const brochure = {
   partner: {
     eyebrow: "Partner brochure",
     title: ["Your pitch,", "ready to print."],
-    body: "Everything you need to learn the offer and explain it to a restaurant owner — what you sell, what you earn from each plan, and when you get paid.",
+    body: "Everything you need to learn the offer and explain it to a restaurant owner - what you sell, what you earn from each plan, and when you get paid.",
     points: ["What you’re selling and why owners say yes", "What each plan earns you", "When the money arrives", "A price cheat sheet for owners"],
     file: "/brochures/liberq-partner-brochure.pdf",
-    downloadName: "Liberq-Partner-Brochure.pdf",
+    downloadName: "LiberQ-Partner-Brochure.pdf",
     cover: "/brochures/partner-cover.webp",
     page: "/brochures/partner-page.webp",
     cta: "Download the partner brochure",
@@ -713,7 +742,7 @@ export const brochure = {
   },
   view: "View online",
   other: {
-    restaurant: { text: "Want to earn by recommending Liberq?", link: "Get the partner brochure" },
+    restaurant: { text: "Want to earn by recommending LiberQ?", link: "Get the partner brochure" },
     partner: { text: "Pitching to a restaurant owner?", link: "Get the restaurant brochure" },
   },
 };

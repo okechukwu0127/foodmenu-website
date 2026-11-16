@@ -2,14 +2,14 @@
 
 **Effective date:** {{effectiveDate}} · **Version** {{version}}
 
-These terms and conditions (the **Terms**) govern your use of the Liberq website, the Liberq platform and every ordering app, web ordering page and AI waiter powered by Liberq. Please read them carefully. By using any of our services, creating an account, placing an order, subscribing or joining one of our programmes, you agree to these Terms.
+These terms and conditions (the **Terms**) govern your use of the LiberQ website, the LiberQ platform and every ordering app, web ordering page and AI waiter powered by LiberQ. Please read them carefully. By using any of our services, creating an account, placing an order, subscribing or joining one of our programmes, you agree to these Terms.
 
 These Terms are made up of:
 
 - **Part A – General terms**, which apply to everyone;
-- **Part B – Merchant terms**, which apply to restaurants, takeaways and other food businesses that subscribe to Liberq;
+- **Part B – Merchant terms**, which apply to restaurants, takeaways and other food businesses that subscribe to LiberQ;
 - **Part C – Partner programme terms**, which apply to marketers and sales partners who introduce merchants to us;
-- **Part D – Customer terms**, which apply to people who order food through an app or web ordering page powered by Liberq; and
+- **Part D – Customer terms**, which apply to people who order food through an app or web ordering page powered by LiberQ; and
 - **Part E – Beta testing terms**, which apply to people who test pre-release versions of our apps.
 
 If there is a conflict between Part A and another Part, the more specific Part applies to the extent of the conflict.
@@ -18,7 +18,7 @@ If there is a conflict between Part A and another Part, the more specific Part a
 
 ### 1. About us
 
-1.1 The Liberq website and platform are operated by {{companyName}} (**Liberq**, **we**, **us**, **our**), a company registered in England and Wales under company number {{companyNumber}}, whose registered office is at {{registeredOffice}}.
+1.1 The LiberQ website and platform are operated by {{companyName}} (**LiberQ**, **we**, **us**, **our**), a company registered in England and Wales under company number {{companyNumber}}, whose registered office is at {{registeredOffice}}.
 
 1.2 You can contact us by email at [{{email}}](mailto:{{email}}) or by phone on {{phone}}.
 
@@ -26,7 +26,7 @@ If there is a conflict between Part A and another Part, the more specific Part a
 
 In these Terms:
 
-- **Platform** means the Liberq software, dashboards, application programming interfaces, AI waiter and related technology we provide;
+- **Platform** means the LiberQ software, dashboards, application programming interfaces, AI waiter and related technology we provide;
 - **Merchant** means a food business that subscribes to the Platform;
 - **Merchant App** means an ordering app or web ordering page built on the Platform and published under a Merchant's brand;
 - **Customer** means a person who uses a Merchant App to browse a menu or place an order;
@@ -38,7 +38,7 @@ In these Terms:
 
 3.1 You may use our website for lawful purposes only. You must not misuse it, including by introducing malicious code, attempting to gain unauthorised access to our systems, scraping it at scale, or interfering with its operation.
 
-3.2 Figures on our website and in our brochures — including commission savings, revenue, earnings and dashboard examples — are **illustrative only**. They are based on stated assumptions and are not a promise or guarantee of any result.
+3.2 Figures on our website and in our brochures - including commission savings, revenue, earnings and dashboard examples - are **illustrative only**. They are based on stated assumptions and are not a promise or guarantee of any result.
 
 3.3 We may update, suspend or withdraw any part of the website without notice. We do not guarantee that it will always be available or error-free.
 
@@ -46,7 +46,7 @@ In these Terms:
 
 ### 4. Intellectual property
 
-4.1 We, or our licensors, own all intellectual property rights in the Services, including the Liberq name and logo, software, designs, text and graphics. Nothing in these Terms transfers ownership of any of these rights to you.
+4.1 We, or our licensors, own all intellectual property rights in the Services, including the LiberQ name and logo, software, designs, text and graphics. Nothing in these Terms transfers ownership of any of these rights to you.
 
 4.2 You may view and print pages of our website for your own use. You must not copy, adapt or commercially exploit our content without our written permission.
 
@@ -99,7 +99,7 @@ You must not use the Services to:
 
 ### 10. The subscription
 
-10.1 These Merchant terms, together with your order form or online sign-up (the **Order**), form the agreement between Liberq and the Merchant (the **Merchant Agreement**). The Merchant Agreement starts when we accept your Order.
+10.1 These Merchant terms, together with your order form or online sign-up (the **Order**), form the agreement between LiberQ and the Merchant (the **Merchant Agreement**). The Merchant Agreement starts when we accept your Order.
 
 10.2 You confirm that you are entering into the Merchant Agreement for business purposes and that the person accepting it has authority to bind the Merchant.
 
@@ -249,13 +249,13 @@ Each party will keep the other's confidential information secret and use it only
 
 26.2 You are responsible for your own tax and National Insurance and, if you are VAT registered, for providing a valid VAT invoice. We may operate a self-billing arrangement with your agreement.
 
-### 27. How you must promote Liberq
+### 27. How you must promote LiberQ
 
 You must:
 
-- describe Liberq accurately, using our current materials, and not make claims about savings, earnings or features that we have not approved;
+- describe LiberQ accurately, using our current materials, and not make claims about savings, earnings or features that we have not approved;
 - make clear that examples of savings are illustrative;
-- comply with marketing and data protection law, including the Privacy and Electronic Communications Regulations 2003 — in particular, you must not send unsolicited marketing emails or texts without the required consent; and
+- comply with marketing and data protection law, including the Privacy and Electronic Communications Regulations 2003 - in particular, you must not send unsolicited marketing emails or texts without the required consent; and
 - not bid on our brand name in paid search advertising, register domains or social accounts using our name, or misrepresent your relationship with us.
 
 ### 28. Changes and termination
@@ -270,9 +270,9 @@ You must:
 
 ### 29. Who you are buying from
 
-29.1 When you order through a Merchant App, **your contract for food and drink is with the Merchant** (the restaurant or takeaway), not with Liberq. The Merchant is responsible for the food, its preparation, its description and price, delivery or collection arrangements, and any refunds.
+29.1 When you order through a Merchant App, **your contract for food and drink is with the Merchant** (the restaurant or takeaway), not with LiberQ. The Merchant is responsible for the food, its preparation, its description and price, delivery or collection arrangements, and any refunds.
 
-29.2 Liberq provides the technology that lets you browse the menu, chat with the AI Waiter, place and pay for your order and track it.
+29.2 LiberQ provides the technology that lets you browse the menu, chat with the AI Waiter, place and pay for your order and track it.
 
 ### 30. Your account
 
@@ -298,13 +298,13 @@ You must:
 
 33.1 Because food is made to order and is perishable, the 14-day cancellation right under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 does not apply once the Merchant has begun preparing your order.
 
-33.2 If there is a problem with your food — for example it is missing, incorrect or not of satisfactory quality — please contact the Merchant through the app as soon as possible. You have rights under the Consumer Rights Act 2015, which the Merchant must honour.
+33.2 If there is a problem with your food - for example it is missing, incorrect or not of satisfactory quality - please contact the Merchant through the app as soon as possible. You have rights under the Consumer Rights Act 2015, which the Merchant must honour.
 
 33.3 If you have a problem with the app itself, contact us at [{{email}}](mailto:{{email}}).
 
 ### 34. Using the AI Waiter
 
-34.1 You can talk to or type to the AI Waiter. Please do not share sensitive personal information it does not need — dietary needs and allergies are enough to help it find suitable dishes.
+34.1 You can talk to or type to the AI Waiter. Please do not share sensitive personal information it does not need - dietary needs and allergies are enough to help it find suitable dishes.
 
 34.2 You must not use the AI Waiter to generate content unrelated to ordering, or try to make it produce harmful, unlawful or misleading content.
 
@@ -314,7 +314,7 @@ You must:
 
 35.2 We provide the Services for domestic and private use. We are not liable to you for any loss of profit, loss of business, business interruption or loss of business opportunity.
 
-35.3 The Merchant, not Liberq, is responsible for the food and drink you buy.
+35.3 The Merchant, not LiberQ, is responsible for the food and drink you buy.
 
 ## Part E – Beta testing terms
 

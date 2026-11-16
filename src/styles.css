@@ -1,4 +1,4 @@
-/* ── Liberq — colours & base ─────────────────────────────────────────────── */
+/* ── LiberQ - colours & base ─────────────────────────────────────────────── */
 :root {
   --bg: #09080D; --bg2: #0E0C14; --card: #15131C; --card2: #1B1824; --line: #2A2633;
   --text: #F3F0EA; --mute: #A7A2B3; --dim: #6F6A7C;
@@ -284,7 +284,7 @@ footer { border-top: 1px solid var(--line); padding: 40px 0 100px; color: var(--
   100% { opacity: 0; transform: translateY(-30px) scale(.95); }
 }
 
-/* How it works — pinned */
+/* How it works - pinned */
 .howpin { padding: 0; }
 .howpin .sticky { position: sticky; top: 0; height: 100vh; display: flex; align-items: center; padding-top: 70px; overflow: hidden; }
 .pingrid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 70px; align-items: center; width: 100%; }
@@ -428,4 +428,36 @@ mark.ph { background: rgba(255,171,92,.18); color: #FFC98F; padding: 1px 5px; bo
   .legal-body { max-width: none; font-size: 11pt; }
   .legal-table th { background: #eee; color: #000; } .legal-table, .legal-table td { border-color: #bbb; }
   mark.ph { background: #fff3c4; color: #000; }
+}
+
+
+/* ── Live demo (nav button + callout) ─────────────────────────────────────── */
+.livedot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); display: inline-block; box-shadow: 0 0 0 0 rgba(111,227,168,.6); animation: livepulse 2s infinite; flex: none; }
+.eyebrow .livedot { margin-right: 10px; vertical-align: 1px; }
+@keyframes livepulse { 0% { box-shadow: 0 0 0 0 rgba(111,227,168,.55); } 70% { box-shadow: 0 0 0 9px rgba(111,227,168,0); } 100% { box-shadow: 0 0 0 0 rgba(111,227,168,0); } }
+.navr .navdemo { gap: 8px; }
+.demo-sec { padding: 40px 0 110px; }
+.demo { position: relative; overflow: hidden; display: grid; grid-template-columns: 1.1fr .9fr; gap: 50px; align-items: center; padding: 56px 60px; border-radius: 30px; background: var(--card); border: 1px solid var(--line); }
+.demo-glow { position: absolute; right: -140px; top: -120px; width: 600px; height: 600px; border-radius: 50%; background: radial-gradient(circle, rgba(111,227,168,.16), color-mix(in srgb, var(--acc) 14%, transparent) 45%, transparent 70%); pointer-events: none; }
+.demo-copy { position: relative; }
+.demo-copy h2 { font-size: 52px; }
+.demo-body { font-size: 17px; line-height: 1.6; margin: 16px 0 6px; max-width: 520px; }
+.demo-list { margin: 18px 0 28px; gap: 10px; } .demo-list li { font-size: 15px; }
+.demo-note { font-size: 12px; color: var(--dim); margin-top: 14px; }
+.demo-art { position: relative; display: flex; align-items: center; justify-content: center; gap: 26px; perspective: 1200px; }
+.demo-qr { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; }
+.qrbox { background: #fff; padding: 14px; border-radius: 20px; box-shadow: 0 30px 60px -24px rgba(0,0,0,.9), 0 0 0 6px rgba(255,255,255,.05); margin-bottom: 12px; }
+.qrbox img { width: 168px; height: 168px; }
+.demo-qr b { font-size: 15px; } .demo-qr span { font-size: 13px; color: var(--mute); }
+.demo-phone .phone.small { width: 210px; }
+@media (max-width: 900px) {
+  .navr { display: flex; } .navr > a:not(.navdemo) { display: none; }
+  .navr .navdemo { padding: 9px 16px; font-size: 14px; }
+  .demo-sec { padding: 20px 0 70px; }
+  .demo { grid-template-columns: 1fr; padding: 34px 22px; gap: 34px; }
+  .demo-copy h2 { font-size: 36px; }
+  .demo-copy .btn { width: 100%; }
+  .demo-qr { display: none; }
+  .demo-art { order: -1; }
+  .demo-phone .phone.small { width: 190px; }
 }
