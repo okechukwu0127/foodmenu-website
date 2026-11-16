@@ -15,8 +15,8 @@ export async function submitBeta({ email, platform, company }) {
     throw new Error('We couldn’t reach the server. Please check your connection and try again.');
   }
   const body = await res.json().catch(() => ({}));
-  if (res.status === 429) throw new Error('Too many attempts — please wait a minute and try again.');
-  if (!res.ok) throw new Error(typeof body?.message === 'string' && res.status < 500 ? body.message : 'Something went wrong — please try again.');
+  if (res.status === 429) throw new Error('Too many attempts - please wait a minute and try again.');
+  if (!res.ok) throw new Error(typeof body?.message === 'string' && res.status < 500 ? body.message : 'Something went wrong - please try again.');
   return body?.data?.message || '';
 }
 
@@ -35,7 +35,7 @@ export async function submitLead({ kind, name, business, email, phone, company }
     throw new Error('We couldn’t reach the server. Please check your connection and try again.');
   }
   const body = await res.json().catch(() => ({}));
-  if (res.status === 429) throw new Error('Too many attempts — please wait a minute and try again.');
-  if (!res.ok) throw new Error(typeof body?.message === 'string' && res.status < 500 ? body.message : 'Something went wrong — please try again.');
+  if (res.status === 429) throw new Error('Too many attempts - please wait a minute and try again.');
+  if (!res.ok) throw new Error(typeof body?.message === 'string' && res.status < 500 ? body.message : 'Something went wrong - please try again.');
   return body?.data?.message || '';
 }

@@ -1,4 +1,4 @@
-// Build-time SEO for the Liberq website:
+// Build-time SEO for the LiberQ website:
 //  • fills __SITE_URL__ in index.html with VITE_SITE_URL (default https://liberq.co.uk)
 //  • writes real HTML files for /privacy-policy and /terms-conditions with their own
 //    title, description and share details (social apps don't run JavaScript)
@@ -7,8 +7,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const PAGES = [
-  { path: '/privacy-policy', title: 'Privacy Policy — Liberq', description: 'How Liberq collects, uses and protects personal data for restaurants, partners, beta testers and customers ordering through Liberq-powered apps.' },
-  { path: '/terms-conditions', title: 'Terms and Conditions — Liberq', description: 'The terms for using Liberq: the website, restaurant subscriptions, the partner programme, ordering through Liberq-powered apps and beta testing.' },
+  { path: '/privacy-policy', title: 'Privacy Policy - LiberQ', description: 'How LiberQ collects, uses and protects personal data for restaurants, partners, beta testers and customers ordering through LiberQ-powered apps.' },
+  { path: '/terms-conditions', title: 'Terms and Conditions - LiberQ', description: 'The terms for using LiberQ: the website, restaurant subscriptions, the partner programme, ordering through LiberQ-powered apps and beta testing.' },
 ];
 
 const swap = (html, page, site) => {

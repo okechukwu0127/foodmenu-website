@@ -1,7 +1,7 @@
 // Scroll motion for the whole page.
 //  • Smooth scrolling (Lenis).
 //  • Every element marked data-sa fades/slides IN as it enters from the bottom
-//    and fades/slides OUT as it leaves at the top — tied to the scroll position,
+//    and fades/slides OUT as it leaves at the top - tied to the scroll position,
 //    so it plays forwards and backwards. data-sa-d="<ms>" staggers an element.
 import Lenis from 'lenis';
 

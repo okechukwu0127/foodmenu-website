@@ -91,7 +91,7 @@ function RestaurantDash({ go }) {
       <div>
         <div className="kpis">{d.kpis.map(([k, v, pre, post, tone], i) => <Kpi key={k} {...{ k, v, pre, post, tone, go, i }} />)}</div>
         <div className="dgrid">
-          <div className="panel s8"><h4>Revenue — last 14 days <span className="ok">▲ <Num v={18} go={go} post="%" /></span></h4>
+          <div className="panel s8"><h4>Revenue - last 14 days <span className="ok">▲ <Num v={18} go={go} post="%" /></span></h4>
             <Line data={d.revenue} before={d.before} go={go} />
             <div className="legend row2"><span><b style={{ color: '#B48CFF' }}>━</b> Your app</span><span><b style={{ color: '#FFAB5C' }}>┅</b> Marketplace (before)</span></div></div>
           <div className="panel s4"><h4>Orders by channel</h4><div className="donut"><Donut parts={d.channels} go={go} center={fmt(useCountUp(86, go))} /><Legend parts={d.channels} go={go} /></div></div>

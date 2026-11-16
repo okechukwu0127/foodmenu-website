@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { nav, hero, looks, t } from '../content.js';
+import { nav, hero, looks, t, demoLink } from '../content.js';
 import { Phone, ScreenVideo, Swap, Check, Arrow } from './ui.jsx';
 import { mouse } from '../lib/motion.js';
 
@@ -14,7 +14,7 @@ export function Nav({ mode, setMode }) {
   return (
     <nav className={`nav ${solid ? 'solid' : ''}`}>
       <div className="wrap navin">
-        <a className="logo" href="#top" aria-label="Liberq home"><img src="/assets/brand/logo.svg" alt="Liberq" /></a>
+        <a className="logo" href="#top" aria-label="LiberQ home"><img src="/assets/brand/logo.svg" alt="LiberQ" /></a>
         <div className="aud glass" role="tablist" aria-label="Who are you?">
           {['restaurant', 'partner'].map((m) => (
             <button key={m} role="tab" aria-selected={mode === m} className={mode === m ? 'on' : ''} onClick={() => setMode(m)}>
@@ -25,6 +25,7 @@ export function Nav({ mode, setMode }) {
         </div>
         <div className="navr">
           <a href="#beta">{nav.beta}</a>
+          <a className="btn btn-line sm navdemo" href={demoLink('nav')} target="_blank" rel="noopener"><span className="livedot" aria-hidden />{nav.demo}</a>
           <a className="btn btn-main sm" href="#contact">{t(nav.cta, mode)}</a>
         </div>
       </div>

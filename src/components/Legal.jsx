@@ -59,7 +59,7 @@ export default function Legal({ page }) {
   const toc = blocks.filter((b) => b.t === 'h2');
   const [active, setActive] = useState(toc[0]?.id);
   useEffect(() => {
-    document.title = `${title} — Liberq`;
+    document.title = `${title} - LiberQ`;
     window.scrollTo(0, 0);
     const io = new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting && setActive(e.target.id)), { rootMargin: '-20% 0px -70% 0px' });
     document.querySelectorAll('.legal-body h2').forEach((h) => io.observe(h));
@@ -69,7 +69,7 @@ export default function Legal({ page }) {
   return (
     <>
       <nav className="nav solid"><div className="wrap navin">
-        <a className="logo" href="/" aria-label="Liberq home"><img src="/assets/brand/logo.svg" alt="Liberq" /></a>
+        <a className="logo" href="/" aria-label="LiberQ home"><img src="/assets/brand/logo.svg" alt="LiberQ" /></a>
         <div className="navr legal-navr"><a href={other[0]}>{other[1]}</a><a className="btn btn-main sm" href="/">Back to site</a></div>
       </div></nav>
       <main className="legal">

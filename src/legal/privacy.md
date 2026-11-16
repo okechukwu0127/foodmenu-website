@@ -2,7 +2,7 @@
 
 **Effective date:** {{effectiveDate}} · **Version** {{version}}
 
-This Privacy Policy explains how {{companyName}} (**Liberq**, **we**, **us**, **our**) collects, uses and protects personal data when you visit our website, contact us, join our beta or partner programme, subscribe as a merchant, or order through an app powered by Liberq. It also explains your rights and how to exercise them.
+This Privacy Policy explains how {{companyName}} (**LiberQ**, **we**, **us**, **our**) collects, uses and protects personal data when you visit our website, contact us, join our beta or partner programme, subscribe as a merchant, or order through an app powered by LiberQ. It also explains your rights and how to exercise them.
 
 We are committed to handling personal data lawfully, fairly and transparently, in line with the UK General Data Protection Regulation (**UK GDPR**), the Data Protection Act 2018 and the Privacy and Electronic Communications Regulations 2003 (**PECR**).
 
@@ -14,7 +14,7 @@ We are committed to handling personal data lawfully, fairly and transparently, i
 
 ## 2. Our role: controller or processor
 
-2.1 **We are the controller** — meaning we decide how and why your data is used — for personal data about:
+2.1 **We are the controller** - meaning we decide how and why your data is used - for personal data about:
 
 - visitors to our website;
 - people who book a demo, apply to our partner programme or join our beta;
@@ -61,7 +61,7 @@ We are committed to handling personal data lawfully, fairly and transparently, i
 | Keeping our website and Platform secure and preventing fraud | Technical and usage data | Legitimate interests in protecting our services and users |
 | Improving our services | Aggregated or de-identified usage data | Legitimate interests in developing our products |
 | Sending service messages (such as invoices, security notices and changes to our terms) | Contact details | Performance of a contract; legal obligation |
-| Sending marketing emails about Liberq | Contact details | Consent, or our legitimate interests where the soft opt-in applies under PECR. You can opt out at any time |
+| Sending marketing emails about LiberQ | Contact details | Consent, or our legitimate interests where the soft opt-in applies under PECR. You can opt out at any time |
 | Establishing, exercising or defending legal claims | Relevant records | Legitimate interests; legal obligation |
 
 When we rely on legitimate interests, we have balanced our interests against your rights and freedoms. You can ask us for details of that assessment.
@@ -80,14 +80,14 @@ When we rely on legitimate interests, we have balanced our interests against you
 
 We do not sell personal data. We share it only where necessary, with:
 
-- **Merchants** — the restaurant you order from receives the details needed to prepare and deliver your order;
-- **Payment provider** — Stripe, which processes card payments as an independent controller under its own privacy policy;
-- **Delivery providers** — such as Stuart or Uber Direct, which receive the name, phone number and address needed to deliver an order;
-- **AI model provider** — Google (Gemini API), as described in section 5;
-- **App distribution** — Apple (TestFlight and the App Store) and Google (Google Play), for beta invitations and app publication;
-- **Infrastructure providers** — our hosting provider ({{hostingProvider}}) and email delivery provider ({{emailProvider}}), which act as our processors;
-- **Professional advisers** — such as accountants, auditors and lawyers, under duties of confidentiality; and
-- **Authorities** — where we are required by law, or need to protect our rights, our users or the public.
+- **Merchants** - the restaurant you order from receives the details needed to prepare and deliver your order;
+- **Payment provider** - Stripe, which processes card payments as an independent controller under its own privacy policy;
+- **Delivery providers** - such as Stuart or Uber Direct, which receive the name, phone number and address needed to deliver an order;
+- **AI model provider** - Google (Gemini API), as described in section 5;
+- **App distribution** - Apple (TestFlight and the App Store) and Google (Google Play), for beta invitations and app publication;
+- **Infrastructure providers** - our hosting provider ({{hostingProvider}}) and email delivery provider ({{emailProvider}}), which act as our processors;
+- **Professional advisers** - such as accountants, auditors and lawyers, under duties of confidentiality; and
+- **Authorities** - where we are required by law, or need to protect our rights, our users or the public.
 
 All our processors are bound by written contracts that require them to keep data secure and to use it only on our instructions.
 

@@ -4,7 +4,7 @@
 // The legal text itself is in terms.md and privacy.md beside this file.
 // ─────────────────────────────────────────────────────────────────────────────
 export const legal = {
-  companyName: '[COMPANY LEGAL NAME, e.g. Liberq Ltd]',
+  companyName: '[COMPANY LEGAL NAME, e.g. LiberQ Ltd]',
   companyNumber: '[COMPANY NUMBER]',
   registeredOffice: '[REGISTERED OFFICE ADDRESS]',
   icoNumber: '[ICO REGISTRATION NUMBER]',

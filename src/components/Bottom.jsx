@@ -171,9 +171,9 @@ export function Contact({ mode }) {
 export function Footer() {
   return (
     <footer><div className="wrap fw">
-      <img src="/assets/brand/logo.svg" alt="Liberq" />
+      <img src="/assets/brand/logo.svg" alt="LiberQ" />
       <span>{footer.line} · <a href={`mailto:${site.email}`}>{site.email}</a></span>
-      <span className="flinks"><a href="/privacy-policy">Privacy Policy</a><a href="/terms-conditions">Terms and Conditions</a><span>© {site.year} Liberq</span></span>
+      <span className="flinks"><a href="/privacy-policy">Privacy Policy</a><a href="/terms-conditions">Terms and Conditions</a><span>© {site.year} LiberQ</span></span>
     </div></footer>
   );
 }
